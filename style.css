@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: monospace;
+}
+
+[v-cloak] {
+  display: none;
+}
+
+.w-container {
+  display: grid;
+  grid-template-columns: 300px;
+  height: 55vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+label {
+  font-size: 16px;
+}
+
+input {
+  outline: none;
+  padding: 0.2em;
+  font-size: 14px;
+}
+
+button {
+  outline: none;
+  padding: 0.2em;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+p {
+  font-size: 28px;
+}
+
+.transition {
+  transition: ease-in-out 0.8s;
+}
